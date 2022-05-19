@@ -1,0 +1,5 @@
+[32mINFO    [0m utilities.customLogger:test_welcome.py:55 ***************** TestCase_001_WelcomeMenu is Started ******************
+[32mINFO    [0m utilities.customLogger:test_welcome.py:66 TestCase_001_welcomeMenu : Passed
+[32mINFO    [0m utilities.customLogger:test_welcome.py:66 TestCase_001_welcomeMenu : Passed
+[32mINFO    [0m utilities.customLogger:test_welcome.py:66 TestCase_001_welcomeMenu : Passed
+[32mINFO    [0m utilities.customLogger:test_welcome.py:75 ***************** TestCase_001_WelcomeMenu is Completed ******************

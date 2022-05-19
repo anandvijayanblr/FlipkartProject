@@ -1,0 +1,9 @@
+git init
+git remote add origin githuburl
+git config --global user.name "anand"
+git config --global user.email "anand@gmail.com"
+git status
+git add -A
+git commit -m "First Commit"
+git push -u origin master ( first time email , pssword)
+git pull

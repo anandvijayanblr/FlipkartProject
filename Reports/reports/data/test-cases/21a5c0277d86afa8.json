@@ -1,0 +1,144 @@
+{
+  "uid" : "21a5c0277d86afa8",
+  "name" : "test_welcomePage",
+  "fullName" : "test_welcome.TestCase_001_Welcome#test_welcomePage",
+  "historyId" : "2e8b070dfed3d9eea30502210bbf9a47",
+  "time" : {
+    "start" : 1631100258650,
+    "stop" : 1631100266359,
+    "duration" : 7709
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1631100257180,
+      "stop" : 1631100258650,
+      "duration" : 1470
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1631100257180,
+      "stop" : 1631100257180,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fe252e664c38ebcf",
+      "name" : "log",
+      "source" : "fe252e664c38ebcf.txt",
+      "type" : "text/plain",
+      "size" : 361
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "tag",
+    "value" : "sanity"
+  }, {
+    "name" : "tag",
+    "value" : "regression"
+  }, {
+    "name" : "suite",
+    "value" : "test_welcome"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase_001_Welcome"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-Q8T6UIRR"
+  }, {
+    "name" : "thread",
+    "value" : "12576-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_welcome"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ {
+      "uid" : "cb3900a21c0dd62e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=93.0.4577.63)",
+      "time" : {
+        "start" : 1631099641276,
+        "stop" : 1631099678549,
+        "duration" : 37273
+      }
+    }, {
+      "uid" : "97de1cc1f5e88685",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631098916292,
+        "stop" : 1631098924418,
+        "duration" : 8126
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "3555fd80fe75209f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631098916292,
+          "stop" : 1631098924418,
+          "duration" : 8126
+        }
+      } ]
+    },
+    "tags" : [ "regression", "sanity" ]
+  },
+  "source" : "21a5c0277d86afa8.json",
+  "parameterValues" : [ ]
+}

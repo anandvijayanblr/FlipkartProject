@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_welcome",
+    "children" : [ {
+      "name" : "TestCase_001_Welcome",
+      "children" : [ {
+        "name" : "test_welcomePage",
+        "uid" : "21a5c0277d86afa8",
+        "parentUid" : "5e2bac41d3952e69bb4539673651ad92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631100258650,
+          "stop" : 1631100266359,
+          "duration" : 7709
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_welcomeMenu",
+        "uid" : "5dbf1cbd9c71ebc7",
+        "parentUid" : "5e2bac41d3952e69bb4539673651ad92",
+        "status" : "passed",
+        "time" : {
+          "start" : 1631100267525,
+          "stop" : 1631100275776,
+          "duration" : 8251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e2bac41d3952e69bb4539673651ad92"
+    } ],
+    "uid" : "6020ddde35b5b1d9f3c9d1414b4cde28"
+  } ]
+}

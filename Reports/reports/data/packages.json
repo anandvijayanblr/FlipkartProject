@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_welcome",
+    "children" : [ {
+      "name" : "test_welcomePage",
+      "uid" : "21a5c0277d86afa8",
+      "parentUid" : "98fe0479801f5e15793636ac138efca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631100258650,
+        "stop" : 1631100266359,
+        "duration" : 7709
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_welcomeMenu",
+      "uid" : "5dbf1cbd9c71ebc7",
+      "parentUid" : "98fe0479801f5e15793636ac138efca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631100267525,
+        "stop" : 1631100275776,
+        "duration" : 8251
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "98fe0479801f5e15793636ac138efca7"
+  } ]
+}

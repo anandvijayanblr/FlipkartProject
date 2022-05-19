@@ -1,0 +1,21 @@
+[ {
+  "uid" : "21a5c0277d86afa8",
+  "name" : "test_welcomePage",
+  "time" : {
+    "start" : 1631100258650,
+    "stop" : 1631100266359,
+    "duration" : 7709
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "5dbf1cbd9c71ebc7",
+  "name" : "test_welcomeMenu",
+  "time" : {
+    "start" : 1631100267525,
+    "stop" : 1631100275776,
+    "duration" : 8251
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

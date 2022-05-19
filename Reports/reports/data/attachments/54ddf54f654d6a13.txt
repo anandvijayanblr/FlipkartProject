@@ -1,0 +1,1 @@
+[32mINFO    [0m utilities.customLogger:test_welcome.py:32 ***************** TestCase_001_WelcomePage is Started ******************

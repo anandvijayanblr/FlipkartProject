@@ -1,0 +1,3 @@
+[32mINFO    [0m utilities.customLogger:test_welcome.py:46 ***************** TestCase_001_WelcomePage is Started ******************
+[32mINFO    [0m utilities.customLogger:test_welcome.py:55 TestCase_001_WelcomePage : Passed
+[32mINFO    [0m utilities.customLogger:test_welcome.py:63 ***************** TestCase_001_WelcomePage is Completed ******************
