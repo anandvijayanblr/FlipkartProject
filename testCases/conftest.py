@@ -1,6 +1,5 @@
 import pytest
 from selenium import webdriver
-from selenium.webdriver import DesiredCapabilities
 from selenium.webdriver.chrome.service import Service
 
 selenium_grid_url = "http://localhost:4444"
@@ -9,18 +8,14 @@ selenium_grid_url = "http://localhost:4444"
 @pytest.fixture()
 def setup(browser):
     if browser == 'chrome':
+        # driver = webdriver.Remote(
+        #     command_executor=selenium_grid_url,
+        #     options=webdriver.ChromeOptions()
+        # )
 
-        dc = DesiredCapabilities.CHROME
-        options = webdriver.ChromeOptions()
-        driver = webdriver.Remote(desired_capabilities=dc, command_executor=selenium_grid_url, options=options)
-        driver = webdriver.Remote(
-            command_executor='http://localhost:4444/',
-            options=webdriver.ChromeOptions()
-        )
-
-        # ser = Service("C:\\Users\\anand\\Desktop\\FlipkartProject\\chromedriver.exe")
-        # op = webdriver.ChromeOptions()
-        # driver = webdriver.Chrome(service=ser, options=op)
+        ser = Service("chromedriver.exe")
+        op = webdriver.ChromeOptions()
+        driver = webdriver.Chrome(service=ser, options=op)
         print("Launching chrome browser.........")
     elif browser == 'firefox':
         driver = webdriver.Firefox()
