@@ -1,2 +1,1 @@
-echo welcome
-pytest -v -s testCases/test_welcome.py --browser chrome
+pytest -v -m "regression or sanity" --html=Reports\testreport.html testCases/test_searchitem.py --browser chrome

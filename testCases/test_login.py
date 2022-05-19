@@ -7,16 +7,16 @@
 # Description: To perform UI Test for Welcome Page
 # Commands:
 # Running Testcase Use command:
-#     pytest -v -s testCases/test_welcome.py --browser chrome
+#     pytest -v -s testCases/test_login.py --browser chrome
 # Running Testcases parallel:
-#     pytest -v -s n=2 testCases/test_welcome.py --browser chrome
+#     pytest -v -s n=2 testCases/test_login.py --browser chrome
 # Generate html report:
-#     pytest -v -s --html=Reports\testreport.html testCases/test_welcome.py --browser chrome
+#     pytest -v -s --html=Reports\testreport.html testCases/test_login.py --browser chrome
 # Running Testsuite:
 #     pytest -v -s -m "regression or sanity" --html=Reports\testreport.html testCases/ --browser chrome
 # Running allure report:
 #     command prompt : allure generate result --clean -o report
-#     pytest -v -s --alluredir="C:\Users\anand\Desktop\FlipkartProject\Reports\result" testCases/test_welcome.py --browser chrome
+#     pytest -v -s --alluredir="C:\Users\anand\Desktop\FlipkartProject\Reports\result" testCases/test_login.py --browser chrome
 # """
 #############################################################################################################
 

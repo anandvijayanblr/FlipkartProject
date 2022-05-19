@@ -1,23 +1,24 @@
 #############################################################################################################
-"""
-Project :    Flipkart
-TestName: Search Product Test
-Authors: Anand Vijayan
-Modified On: 08-September 2021
-Description: To perform UI and functionality Test for Product Search
-Commands:
-Running Testcase Use command:
-    pytest -v -s testCases/test_searchitem.py --browser chrome
-Running Testcases parallel:
-    pytest -v -s n=2 testCases/test_searchitem.py --browser chrome
-Generate html report:
-    pytest -v -s --html=Reports\testreport.html testCases/test_searchitem.py --browser chrome
-Running Testsuite:
-    pytest -v -s -m "regression or sanity" --html=Reports\testreport.html testCases/ --browser chrome
-Running allure report:
-    pytest -v -s --alluredir="C:\Users\anand\Desktop\FlipkartProject\Reports\result" testCases/test_searchitem.py --browser chrome
-"""
+# """
+# Project :    Flipkart
+# TestName: Search Product Test
+# Authors: Anand Vijayan
+# Modified On: 08-September 2021
+# Description: To perform UI and functionality Test for Product Search
+# Commands:
+# Running Testcase Use command:
+#     pytest -v -s testCases/test_searchitem.py --browser chrome
+# Running Testcases parallel:
+#     pytest -v -s n=2 testCases/test_searchitem.py --browser chrome
+# Generate html report:
+#     pytest -v -s --html=Reports\testreport.html testCases/test_searchitem.py --browser chrome
+# Running Testsuite:
+#     pytest -v -s -m "regression or sanity" --html=Reports\testreport.html testCases/ --browser chrome
+# Running allure report:
+#     pytest -v -s --alluredir="C:\Users\anand\Desktop\FlipkartProject\Reports\result" testCases/test_searchitem.py --browser chrome
+# """
 #############################################################################################################
+
 import pytest
 import allure
 from allure_commons.types import AttachmentType
@@ -35,7 +36,7 @@ from utilities import XLUtils
 class TestCase_001_SearchItem:
     testLogs = TestLog.CreateLog()
     baseURL = ReadConfig.getWebURL()
-    list = ["mobiles", "laptop"]
+    list = ["mobiles"]
     btnLoginCancel_xpath = "//button[@class='_2KpZ6l _2doB4z']"
     path = ".//TestData//ProductData.xlsx"
 
@@ -46,9 +47,9 @@ class TestCase_001_SearchItem:
         self.testLogs.info("*****************DDT: TestCase_001_ProductSearch is Started ******************")
         self.driver = setup
         self.driver.get(self.baseURL)
-        self.driver.implicitly_wait(10)
+        self.driver.implicitly_wait(5)
+        # self.driver.find_element(By.XPATH, "//button[@class = '_2KpZ6l _2doB4z']").click()
         self.driver.maximize_window()
-
         getLogin = self.driver.find_element_by_xpath(self.btnLoginCancel_xpath)
         if getLogin:
             self.driver.find_element_by_xpath(self.btnLoginCancel_xpath).click()

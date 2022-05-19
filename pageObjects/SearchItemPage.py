@@ -14,10 +14,11 @@ class SearchItemPage:
 
     def searchitemlist(self, item):
         elem = self.driver.find_element_by_xpath(self.txtSearch_xpath)
+        self.driver.implicitly_wait(2)
         elem.clear()
-        self.driver.implicitly_wait(10)
+        self.driver.implicitly_wait(5)
         elem.send_keys(item)
-        self.driver.implicitly_wait(10)
+        self.driver.implicitly_wait(5)
         self.driver.find_element_by_xpath(self.btnSearch_xpath).click()
         txtSearchResults_xpath = "//*[@id='container']//following::span[contains(text(),'" + item + "')]"
         getlist = self.driver.find_element_by_xpath(txtSearchResults_xpath)

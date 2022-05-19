@@ -1,0 +1,3 @@
+[32mINFO    [0m utilities.customLogger:test_searchitem.py:47 *****************DDT: TestCase_001_ProductSearch is Started ******************
+[32mINFO    [0m utilities.customLogger:test_searchitem.py:65 TestCase_001_ProductSearch : Passed
+[32mINFO    [0m utilities.customLogger:test_searchitem.py:73 *****************DDT: TestCase_001_ProductSearch is Completed ******************
